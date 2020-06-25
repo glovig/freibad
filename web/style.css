@@ -1,4 +1,43 @@
-h1 {
-    background-color: #fff;
-    font-size: 16px;
+
+#container {
+    width: 100%;
+    max-width: 800px;
+    padding: .5em;
+}
+#header, #footer {
+    text-align: right;
+    font-size: 24px;
+}
+#body {
+    width: 100%;
+    display: flex;
+}
+#left {
+    width: 120px;
+}
+#main {
+    width: 500px;
+}
+#right {
+    width: 100px;
+    padding: 1em;
+}
+div {
+
+}
+/*Links*/
+a {
+    text-decoration: none;
+    width: 100%;
+    background-color: white;
+    color: black
+}
+a:hover{
+    color: white;
+    width: 100%;
+    background-color: darkseagreen;
+}
+/*iframe*/
+iframe {
+    border: none;
 }
