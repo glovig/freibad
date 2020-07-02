@@ -1,15 +1,61 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 23.06.2020, 12:40:32
-    Author     : glovig
-*/
-
-header {
+/* basic body */
+#container {
+    max-width: 1200px;
+}
+#footer, #header, header {
+    text-align: right;
+    flex-basis: 100%;
+    font-size: 1em;
+    font-weight: bold;
+}
+#body {
+    display: flex;
+    width: 100%;
+}
+#left {
+    min-width: 120px;
+    background-color: lightgrey
+}
+#main {
+    width: 800px;
+}
+div {
+    padding: 2px;
+}
+.small_menu {
+    font-size: .8em;
+}
+/*Links*/
+a {
+    text-decoration: none;
+    color: black
+}
+a:hover{
     color: white;
-    font-size: 16px;
-    background-color: appworkspace
+    background-color: darkseagreen;
+}
+
+/* Style the boxes*/
+div.toFlex {
+    display: flex;
+}
+div.menu {
+    display: flex;
+    width: 95%;
+    padding: 5px;
+
+}
+div.choice {
+    width: 100px;
+    padding: 2px 0px 2px 5px;
+}
+div.select {
+    padding-top: 2px;
+    width: 250px;
+}
+/*iframe*/
+iframe {
+    border: none;
+    height: 600px;
+    width: 100%;
 }

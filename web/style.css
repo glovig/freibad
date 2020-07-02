@@ -1,43 +1,61 @@
-
+/* basic body */
 #container {
-    width: 100%;
-    max-width: 800px;
-    padding: .5em;
+    max-width: 1200px;
 }
-#header, #footer {
+#footer, #header, header {
     text-align: right;
-    font-size: 24px;
+    flex-basis: 100%;
+    font-size: 1em;
+    font-weight: bold;
 }
 #body {
-    width: 100%;
     display: flex;
+    width: 100%;
 }
 #left {
-    width: 120px;
+    min-width: 120px;
+    background-color: lightgrey
 }
 #main {
-    width: 500px;
-}
-#right {
-    width: 100px;
-    padding: 1em;
+    width: 800px;
 }
 div {
-
+    padding: 2px;
+}
+.small_menu {
+    font-size: .8em;
 }
 /*Links*/
 a {
     text-decoration: none;
-    width: 100%;
-    background-color: white;
     color: black
 }
 a:hover{
     color: white;
-    width: 100%;
     background-color: darkseagreen;
+}
+
+/* Style the boxes*/
+div.toFlex {
+    display: flex;
+}
+div.menu {
+    display: flex;
+    width: 95%;
+    padding: 5px;
+
+}
+div.choice {
+    width: 100px;
+    padding: 2px 0px 2px 5px;
+}
+div.select {
+    padding-top: 2px;
+    width: 250px;
 }
 /*iframe*/
 iframe {
     border: none;
+    height: 600px;
+    width: 100%;
 }
